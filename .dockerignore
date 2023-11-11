@@ -1,0 +1,10 @@
+# exclude hidden dirs .git etc.
+.*
+*.iml
+*.csv
+data
+.gradle
+# exclude build binaries
+build/*
+# except files for docker
+!build/docker

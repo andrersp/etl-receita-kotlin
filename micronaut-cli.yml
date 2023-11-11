@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: br.com.rspinfotec
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [app-name, assertj, data, data-hibernate-reactive, gradle, http-client-test, junit, kapt, kotlin, kotlin-application, kotlin-extension-functions, logback, micronaut-aot, micronaut-build, micronaut-http-validation, mockito, netty-server, openapi, postgres, reactor, reactor-http-client, readme, serialization-jackson, shade, swagger-ui, test-resources, yaml, yaml-build]
