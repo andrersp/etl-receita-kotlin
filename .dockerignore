@@ -8,3 +8,7 @@ data
 build/*
 # except files for docker
 !build/docker
+
+./Dockerfile
+./docker-compose.yml
+.env
