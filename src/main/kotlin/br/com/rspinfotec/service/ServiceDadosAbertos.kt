@@ -46,8 +46,8 @@ class ServiceDadosAbertos(
             serviceQualificacaoSocio,
             serviceMotivos,
             servicePaises,
-            serviceEmpresa,
             serviceSocio,
+            serviceEmpresa,
             serviceSimples,
             serviceEstabelecimento
         )

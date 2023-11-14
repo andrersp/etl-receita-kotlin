@@ -1,4 +1,6 @@
 micronaut:
+  jcache:
+    enabled: False
   server:
     port: ${API_PORT}
   application:

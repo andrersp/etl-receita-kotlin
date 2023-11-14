@@ -33,7 +33,7 @@ class ControllerReceita(
 ) {
 
     @Post
-    @Operation(description = "Verificar atualização e iniciar se desatualizado", summary ="Verificar autalição" )
+    @Operation(description = "Verificar atualização e iniciar se desatualizado", summary ="Verificar atualização" )
     suspend fun verifyAndUpdate(): StatusResponse {
         val status = serviceReceitaFederal.verifyUpdate()
         return StatusResponse(status = status)
